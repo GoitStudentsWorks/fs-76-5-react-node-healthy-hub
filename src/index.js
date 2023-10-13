@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename="/fs-76-3-react-node-healthy-hub/">
+          <BrowserRouter basename="/fs-76-5-react-node-healthy-hub/">
             <App />
           </BrowserRouter>
         </PersistGate>
